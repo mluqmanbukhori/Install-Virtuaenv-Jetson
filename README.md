@@ -17,7 +17,12 @@ Sebelum melakukan installasi, edit file `virtualenv.sh` menggunakan `nano / vim 
   cd ~/.virtualenvs/ai/lib/python3.6/site-packages/
 </pre>
 
-Simpan file bash. Kemudian jalankan file bash dengan cara berikut
+Simpan file bash. Kemudian berikan ijin pada file dengan cara `chmod +x`
+<pre>
+  sudo chmod +x ./virtualenv.sh
+</pre>
+
+Jalankan file bash dengan cara berikut
 <pre>
   ./virtualenv.sh
 </pre>
