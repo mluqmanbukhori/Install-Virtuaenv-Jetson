@@ -1,7 +1,7 @@
 # Install Virtual Environment di Jetson Nano
 Download script menggunakan line code berikut
 <pre>
-  $ git clone https://github.com/mluqmanbukhori/Install-Virtualenv-Jetson/install.sh
+  $ git clone https://github.com/mluqmanbukhori/Install-Virtuaenv-Jetson.git
 </pre>
 
 Edit file `install.sh` dengan `gedit / vim / nano`
