@@ -10,4 +10,4 @@ echo 'export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3' >> ~/.bashrc
 echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
 
 echo "Install OK, next compiling"
-echo "ketikkan: source ~/.bashrc"
+echo "Ketikkan: source ~/.bashrc"
