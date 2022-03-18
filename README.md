@@ -1,23 +1,17 @@
 # Install Virtual Environment di Jetson Nano
-Download script `virtualenv.sh` menggunakan line code berikut
+Download script menggunakan line code berikut
 <pre>
-  $ wget https://github.com/mluqmanbukhori/Install-Virtual-Environment-Jetson/raw/main/virtualenv.sh
+  $ git clone https://github.com/mluqmanbukhori/Install-Virtualenv-Jetson/install.sh
 </pre>
 
-Berikan ijin pada file dengan cara `chmod +x`
+Edit file `install.sh` dengan `gedit / vim / nano`
 <pre>
-  $ sudo chmod +x virtualenv.sh
+  $ gedit install.sh
 </pre>
 
-Jalankan file bash dengan cara berikut
+Atur nama virtualenv dengan yang diinginkan di baris ke-7
 <pre>
-  $ ./virtualenv.sh
-  $ source ~/.bashrc
-</pre>
-
-Buat nama virtual environment yang diinginkan
-<pre>
-  $ mkvirtualenv ai -p python3
+python3 -m virtualenv -p python3 ai
 </pre>
 
 ## Hasil virtualenv yang telah dibuat
@@ -26,9 +20,14 @@ Buat nama virtual environment yang diinginkan
 Keluar virtualenv dengan cara `$ deactivate`
 
 ## Aktvasi Virtual Environment
-Aktifkan virtual environment yang telah dibuat dengan script `workon`
+Aktifkan virtual environment yang telah dibuat dengan script `source <name-dir>/bin/activate`
 <pre>
-  $ workon ai
+  $ source ai/bin/activate
+</pre>
+
+Non-Aktifkan virtual environment yang telah dibuat dengan script `deactivate`
+<pre>
+  $ deactivate
 </pre>
 
 # Kontribusi | Mau bertanya?
