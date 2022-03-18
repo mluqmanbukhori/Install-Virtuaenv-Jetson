@@ -1,1 +1,1 @@
-# Install-Virtualenv-on-Jetson
+# Install Virtual Environment di Jetson Nano
