@@ -11,3 +11,4 @@ echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
 
 echo "Install OK, next compiling"
 echo "Ketikkan: source ~/.bashrc"
+source ~/.bashrc
