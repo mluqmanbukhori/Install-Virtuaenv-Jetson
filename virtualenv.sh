@@ -12,13 +12,3 @@ echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
 # Compiling bashrc file
 cd ~
 source ~/.bashrc
-
-# Buat nama directory virtualenv. Ganti "ai" dengan nama virtualenv yang diinginkan 
-mkvirtualenv ai -p python3
-
-# Copy OpenCV global ke virtualenv. Ganti "ai" dengan nama virtual yang telah dibuat
-cd ~/.virtualenvs/ai/lib/python3.6/site-packages/
-ln -s /usr/lib/python3.6/dist-packages/cv2/python-3.6/cv2.cpython-36m-aarch64-linux-gnu.so cv2.s
-
-echo "Selamat ..."
-echo "Virtual Environment sudah terinstall!"
