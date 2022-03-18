@@ -9,6 +9,5 @@ echo 'export WORKON_HOME=$HOME/.virtualenvs' >> ~/.bashrc
 echo 'export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3' >> ~/.bashrc
 echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
 
-# Compiling bashrc file
-cd ~
-source ~/.bashrc
+echo "Install OK, next compiling"
+echo "ketikkan: source ~/.bashrc"
