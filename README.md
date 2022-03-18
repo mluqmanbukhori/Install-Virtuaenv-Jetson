@@ -6,24 +6,24 @@ Download script `virtualenv.sh` menggunakan line code berikut
 
 Berikan ijin pada file dengan cara `chmod +x`
 <pre>
-  sudo chmod +x virtualenv.sh
+  $ sudo chmod +x virtualenv.sh
 </pre>
 
 Jalankan file bash dengan cara berikut
 <pre>
-  ./virtualenv.sh
-  source ~/.bashrc
+  $ ./virtualenv.sh
+  $ source ~/.bashrc
 </pre>
 
 Buat nama virtual environment yang diinginkan
 <pre>
-  mkvirtualenv ai -p python3
+  $ mkvirtualenv ai -p python3
 </pre>
 
 ## Hasil virtualenv yang telah dibuat
 ![ai](https://github.com/mluqmanbukhori/Install-Virtual-Environment-Jetson/blob/main/cuplikan.jpg)
 
-Keluar virtualenv dengan cara `deactivate`
+Keluar virtualenv dengan cara `$ deactivate`
 
 ## Aktvasi Virtual Environment
 Aktifkan virtual environment yang telah dibuat dengan script `workon`
