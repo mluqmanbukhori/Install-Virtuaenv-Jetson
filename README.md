@@ -25,18 +25,10 @@ Buat nama virtual environment yang diinginkan
 
 Keluar virtualenv dengan cara `deactivate`
 
-## Link installer OpenCV di Jetson ke virtualenv
-> **Catata:** pastikan "ai" diganti dengan nama virtualenv yang telah dibuat
-<pre>
-  cd ~/.virtualenvs/ai/lib/python3.6/site-packages/ 
-  ln -s /usr/lib/python3.6/dist-packages/cv2/python-3.6/cv2.cpython-36m-aarch64-linux-gnu.so cv2.s
-  cd ~
-</pre>
-
 ## Aktvasi Virtual Environment
 Aktifkan virtual environment yang telah dibuat dengan script `workon`
 <pre>
-  workon ai
+  $ workon ai
 </pre>
 
 # Kontribusi | Mau bertanya?
