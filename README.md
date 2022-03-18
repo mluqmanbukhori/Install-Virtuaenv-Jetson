@@ -12,8 +12,20 @@ Berikan ijin pada file dengan cara `chmod +x`
 Jalankan file bash dengan cara berikut
 <pre>
   ./virtualenv.sh
+  source ~/.bashrc
 </pre>
 
+Buat nama virtual environment yang diinginkan
+<pre>
+  mkvirtualenv ai -p python3
+</pre>
+
+Buat link OpenCV yang telah terinstall di Jetson menggunakan script berikut
+> **Catatan:** ganti "ai" dengan nama virtualenv yang dibuat
+<pre>
+  cd ~/.virtualenvs/ai/lib/python3.6/site-packages/ 
+  ln -s /usr/lib/python3.6/dist-packages/cv2/python-3.6/cv2.cpython-36m-aarch64-linux-gnu.so cv2.s
+</pre>
 
 Aktifkan virtual environment yang telah dibuat dengan script `workon`
 <pre>
