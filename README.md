@@ -6,7 +6,7 @@ Download script `virtualenv.sh` menggunakan line code berikut
 
 Berikan ijin pada file dengan cara `chmod +x`
 <pre>
-  sudo chmod +x ./virtualenv.sh
+  sudo chmod +x virtualenv.sh
 </pre>
 
 Jalankan file bash dengan cara berikut
