@@ -2,6 +2,7 @@
 Download script menggunakan line code berikut
 <pre>
   $ git clone https://github.com/mluqmanbukhori/Install-Virtuaenv-Jetson.git
+  $ cd Install-Virtualenv-Jetson
 </pre>
 
 Edit file `install.sh` dengan `gedit / vim / nano`
