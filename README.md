@@ -9,7 +9,7 @@ Edit file `install.sh` dengan `gedit / vim / nano`
   $ gedit install.sh
 </pre>
 
-Atur nama virtualenv dengan yang diinginkan di baris ke-7
+Atur nama virtualenv `ai` dengan yang diinginkan di baris ke-7
 <pre>
 python3 -m virtualenv -p python3 ai
 </pre>
