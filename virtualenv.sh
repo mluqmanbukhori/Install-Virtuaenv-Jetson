@@ -10,6 +10,7 @@ echo 'export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3' >> ~/.bashrc
 echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
 
 # Compiling bashrc file
+cd ~
 source ~/.bashrc
 
 # Buat nama directory virtualenv. Ganti "ai" dengan nama virtualenv yang diinginkan 
